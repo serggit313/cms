@@ -1,3 +1,10 @@
+<?
+
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="ru" xmlns="http://www.w3.org/1999/html">
 <head>
@@ -16,17 +23,19 @@
         <div class="container">
             <div class="questionnaire_title">
                 <h1>
-                    Форма заказа 3131!!!!
+                    Форма заказа 
                 </h1>
             </div>
 
             <div class="questionnaire_content">
-                <form action="test.php" method="post" class="questionnaire_content_form">
+                <form action="test.php" method="post" class="questionnaire_content_form" enctype="multipart/form-data">
                     <input type="text" name="name" placeholder="Имя">
                     <input type="text" name="surname" placeholder="Фамилия">
                     <input type="text" name="adres" placeholder="Адрес">
                     <input type="tel" name="phone" placeholder="Телефон">
                     <input type="email" name="email" placeholder="Email">
+
+                    <input type="file" name="file">
                     <button type="submit">Отправить</button>
                 </form>
             </div>
