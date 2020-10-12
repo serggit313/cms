@@ -1,0 +1,64 @@
+body
+{
+    background: #f69a73;
+}
+.questionnaire_title h1, .output_title h1
+{
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.questionnaire_content
+{
+    width: 40%;
+    margin: auto;
+    background: white;
+    border-radius: 30px;
+}
+.questionnaire_content_form
+{
+    padding: 50px;
+    text-align: center;
+}
+.questionnaire_content_form input
+{
+    width: 100%;
+    padding: 0 30px;
+    margin-top: 20px;
+    background: #E9EFF6;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+.questionnaire_content_form button
+{
+    margin-top: 30px;
+    background: #f69a73;
+    border-bottom: 4px solid #d87d56;
+    color: #fff;
+    font-size: 14px;
+    width: 50%;
+    height: 45px;
+    border-radius: 20px;
+    outline: none;
+}
+.output_content
+{
+    width: 40%;
+    margin: auto;
+    background: white;
+    border-radius: 30px;
+    padding: 50px;
+    text-align: center;
+}
+.output_content p
+{
+    width: 100%;
+    padding: 0 30px;
+    margin-top: 20px;
+    background: #E9EFF6;
+    line-height: 40px;
+    border-radius: 20px;
+}
